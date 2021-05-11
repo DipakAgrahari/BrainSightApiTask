@@ -7,7 +7,6 @@ import timeit
 app = Flask(__name__)
 
 
-# @app.rout('/mlinfe',methods = ['POST'])
 
 @app.route('/module/<string:name>', methods=['GET'])
 def get(name):
